@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Confetti from "react-confetti";
+import greet from "./greet.js";
 import "./styles.css";
 
-const GreetingMessage = "";
+const GreetingMessage = greet("Designs By Nome was here");
 
 function App() {
   return (
